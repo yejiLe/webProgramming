@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>프로젝트 스토어</title>
+  <style>
+    @keyframes textColor {
+      0%{color:rgba(255, 255, 255, 0) ;text-shadow:  0px 0px 8px rgba(0, 0, 0, 0);}
+    }
+   
+    body{ background-color:rgb(27, 27, 27);}
+    section{padding-top: 4cm;padding-bottom: 4cm;  background-image: url(main.png);background-repeat: no-repeat; background-position:center; }
+    header{text-align: center;width: 100%;padding-top: 0.5cm;padding-bottom: 1cm;  
+      color: white;font-size: 45px;text-shadow:  0px 0px 8px skyblue; font-weight: bold; font-family:fantasy; border-radius: 100px;
+      animation-name: textColor;
+      animation-duration: 5s;
+      animation-iteration-count: 1;
+     
+    }
+    div{text-align: center;width: 100%;  padding-top: 30px;padding-bottom:30px; background-color:rgb(27, 27, 27);}
+    a{
+      text-decoration: none;
+      font-size: 20px;
+      text-shadow:  0px 0px 5px black;
+    }
+    a:link, a:visited{
+      color:blanchedalmond;
+    }
+    
+    a:hover{
+      font-size: 150%;
+      font-weight: bold;
+    }
+    div:hover{
+      animation-name: borderColor;
+      animation-duration: 5s;
+      animation-iteration-count: 1;
+      
+    }
+    div.outer:hover{
+      background-image: url("outer.png"); background-repeat: no-repeat; background-position:center;
+    }
+    div.top:hover{
+      background-image: url("top.png"); background-repeat: no-repeat; background-position:center;
+    }
+    div.bottom:hover{
+      background-image: url("bottom.png"); background-repeat: no-repeat; background-position:center;
+    }
+    div.shoes:hover{
+      background-image: url("shoes.png"); background-repeat: no-repeat; background-position:center;
+    }
+    div.acc:hover{
+      background-image: url("acc.png"); background-repeat: no-repeat; background-position:center;
+    }
+
+  </style>
+ </head>
+<body>
+  <section></section>
+<header>
+    <h1>PROJECT STORE</h1>
+	
+</header>
+<div class ="outer"><a href = outer.html>Outer</a></div>
+<div class ="top"><a href = outer.html>Top</a></div>
+<div class ="bottom"><a href = outer.html>Bottom</a></div>
+<div class ="shoes"><a href = outer.html>Shoes</a></div>
+<div class ="acc"><a href = outer.html>Acc</a></div>
+ 
+</body>
+</html>
